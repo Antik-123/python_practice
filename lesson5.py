@@ -1,8 +1,8 @@
 #Arithemetic operators
 import math
 
-print(math.pi)
-print(math.e)
+# print(math.pi)
+# print(math.e)
 
 friends = 5
 
@@ -49,7 +49,14 @@ x = 9.9
 
 
 
-radius = float(input("enter the radius of the area : "))
-area =  math.pi * pow(radius, 2)
+# radius = float(input("enter the radius of the area : "))
+# area =  math.pi * pow(radius, 2)
 
-print(f"the area is : {area}")
+# print(f"the area is : {area}")
+
+a = float(input('enter side A : '))
+b = float(input('enter side B : '))
+
+c = math.sqrt(pow(a, 2) + pow(b, 2))
+
+print(f"side c = {c}")
